@@ -1,0 +1,173 @@
+tissue,entrez,symbol,genename,log2FoldChange,padj,direction
+ED,338325,XIST,X (inactive)-specific transcript,-8.72,2.6500000000000003e-21,down
+ED,613505,GPR143,G protein-coupled receptor 143,2.05,1.84e-9,up
+ED,280952,KDM6A,lysine demethylase 6A,-0.96,8.78e-9,down
+ED,783774,NRK,Nik related kinase,-2.78,1.59e-8,down
+ED,507307,USP9X,ubiquitin specific peptidase 9 X-linked,-0.77,1.02e-7,down
+ED,513603,PCSK1N,proprotein convertase subtilisin/kexin type 1 inhibitor,-2.39,1.05e-7,down
+ED,614145,IDH3G,isocitrate dehydrogenase (NAD(+)) 3 non-catalytic subunit gamma,-0.82,1.81e-7,down
+ED,616331,AP1S2,adaptor related protein complex 1 subunit sigma 2,-0.94,1.81e-6,down
+ED,101902838,LOC101902838,zinc finger protein 75D,0.89,2.15e-6,up
+ED,280961,ZFX,zinc finger protein X-linked,-0.83,4.17e-6,down
+ED,786844,MXRA5,matrix remodeling associated 5,-2.4,6.59e-6,down
+ED,508861,SAT1,spermidine/spermine N1-acetyltransferase 1,-0.78,1.05e-5,down
+ED,504438,SSR4,signal sequence receptor subunit 4,-0.83,1.31e-5,down
+ED,100034674,BEX3,brain expressed X-linked 3,-1.81,1.59e-5,down
+ED,525619,DKC1,dyskerin pseudouridine synthase 1,-0.49,3.77e-5,down
+ED,282588,CSTF2,cleavage stimulation factor subunit 2,-0.62,3.98e-5,down
+ED,767841,ARMCX2,armadillo repeat containing X-linked 2,-1.3,1.38e-4,down
+ED,107132066,DGKK,diacylglycerol kinase kappa,1.95,1.65e-4,up
+ED,281855,IKBKG,inhibitor of nuclear factor kappa B kinase regulatory subunit gamma,-0.47,2.84e-4,down
+ED,515539,FAM50A,family with sequence similarity 50 member A,-0.6,4.18e-4,down
+ED,399681,EMD,emerin,-0.45,4.41e-4,down
+ED,508293,MOSPD2,motile sperm domain containing 2,-0.7,4.41e-4,down
+ED,516017,L1CAM,L1 cell adhesion molecule,-1.63,6.15e-4,down
+ED,540065,ERAS,ES cell expressed Ras,-1.17,6.22e-4,down
+ED,529148,LAMP2,lysosomal associated membrane protein 2,-0.58,7.44e-4,down
+ED,538475,PDZD4,PDZ domain containing 4,-1.03,8.31e-4,down
+ED,534112,CNKSR2,connector enhancer of kinase suppressor of Ras 2,-1.15,0.00113,down
+ED,535869,RNF128,ring finger protein 128,-0.96,0.0014,down
+ED,536745,GPKOW,G-patch domain and KOW motifs,-0.52,0.00183,down
+ED,286790,RPL10,ribosomal protein L10,-0.74,0.00249,down
+ED,507187,TCEAL1,transcription elongation factor A like 1,-1.06,0.00257,down
+ED,782436,LAGE3,L antigen family member 3,-0.65,0.00286,down
+ED,511189,EIF1AX,eukaryotic translation initiation factor 1A X-linked,-0.61,0.00292,down
+ED,505324,UTP14A,UTP14A small subunit processome component,-0.44,0.00307,down
+ED,512780,ARL13A,ADP ribosylation factor like GTPase 13A,1.05,0.00309,up
+ED,282370,SMC1A,structural maintenance of chromosomes 1A,-0.53,0.00316,down
+ED,533823,ARHGEF6,Rac/Cdc42 guanine nucleotide exchange factor 6,1.3,0.00339,up
+ED,614260,LOC614260,zinc finger protein 75D,1.91,0.00342,up
+ED,507924,LAS1L,LAS1 like ribosome biogenesis factor,-0.44,0.00368,down
+ED,786332,LOC786332,tomoregulin-1-like,-1.45,0.00436,down
+ED,615065,CHIC1,cysteine rich hydrophobic domain 1,-0.9,0.00449,down
+ED,615596,TSPAN7,tetraspanin 7,-1.93,0.00449,down
+ED,535872,SLC16A2,solute carrier family 16 member 2,-1.64,0.00453,down
+ED,514607,IRS4,insulin receptor substrate 4,-1.97,0.00499,down
+ED,537560,RAB39B,"RAB39B, member RAS oncogene family",-1.32,0.0051,down
+ED,512562,MAGED1,MAGE family member D1,0.62,0.00552,up
+ED,515968,GEMIN8,gem nuclear organelle associated protein 8,-0.49,0.00604,down
+ED,281813,FUNDC2,FUN14 domain containing 2,-0.6,0.00626,down
+ED,327687,ATP6AP1,ATPase H+ transporting accessory protein 1,-0.37,0.0071,down
+ED,518911,LOC518911,sodium/hydrogen exchanger 2,1.94,0.00718,up
+ED,508727,VBP1,VHL binding protein 1,-0.53,0.00839,down
+ED,768028,LOC768028,brain expressed X-linked 2,-1.34,0.00946,down
+ED,511776,RAB9A,"RAB9A, member RAS oncogene family",-0.46,0.0104,down
+ED,614768,POF1B,POF1B actin binding protein,-0.69,0.0109,down
+ED,787130,EZHIP,EZH inhibitory protein,2.73,0.011,up
+ED,281490,KDM5C,lysine demethylase 5C,-0.43,0.0119,down
+ED,282386,TMSB4X,thymosin beta 4 X-linked,-0.79,0.0123,down
+ED,516214,RENBP,renin binding protein,-0.56,0.0135,down
+ED,282869,UBA1,ubiquitin like modifier activating enzyme 1,-0.34,0.0137,down
+ED,781486,LOC781486,melanoma-associated antigen B1,-2.06,0.0138,down
+ED,281809,HSD17B10,hydroxysteroid 17-beta dehydrogenase 10,-0.6,0.0146,down
+ED,280887,OTC,ornithine transcarbamylase,-0.88,0.0147,down
+ED,535714,AIFM1,apoptosis inducing factor mitochondria associated 1,-0.38,0.0152,down
+ED,511852,ASB11,ankyrin repeat and SOCS box containing 11,-0.53,0.0156,down
+ED,282479,SLC25A5,solute carrier family 25 member 5,-0.44,0.0161,down
+ED,768308,ARMCX6,armadillo repeat containing X-linked 6,-1.39,0.0168,down
+ED,504533,UBL4A,ubiquitin like 4A,-0.61,0.0168,down
+ED,100300550,COX7B,cytochrome c oxidase subunit VIIb,-0.55,0.0177,down
+ED,784938,LOC784938,lactate dehydrogenase A pseudogene,0.72,0.0179,up
+ED,515972,TBL1X,transducin beta like 1 X-linked,0.42,0.0213,up
+ED,526925,OFD1,OFD1 centriole and centriolar satellite protein,-0.65,0.0213,down
+ED,534137,SASH3,SAM and SH3 domain containing 3,-2.27,0.0214,down
+ED,534848,POLA1,"DNA polymerase alpha 1, catalytic subunit",-0.44,0.0216,down
+ED,515297,TEX11,testis expressed 11,-1.51,0.0258,down
+ED,532185,MCF2,MCF.2 cell line derived transforming sequence,-1.4,0.0266,down
+ED,508189,LONRF3,LON peptidase N-terminal domain and ring finger 3,1.02,0.0275,up
+ED,515109,TIMM8A,translocase of inner mitochondrial membrane 8A,-0.55,0.0279,down
+ED,104968770,DACH2,dachshund family transcription factor 2,1.52,0.0291,up
+ED,532320,TCEAL9,transcription elongation factor A like 9,-1.84,0.0295,down
+ED,512350,EIF2S3,eukaryotic translation initiation factor 2 subunit gamma,-0.39,0.0316,down
+ED,508703,PRAF2,PRA1 domain family member 2,0.52,0.0327,up
+ED,404161,NDUFB11,NADH:ubiquinone oxidoreductase subunit B11,-0.61,0.0343,down
+ED,112445060,LOC112445060,uncharacterized LOC112445060,1.88,0.0347,up
+ED,613349,DYNLT3,dynein light chain Tctex-type 3,-0.4,0.0363,down
+ED,614075,FAM3A,FAM3 metabolism regulating signaling molecule A,-0.42,0.0377,down
+ED,526026,ZNF711,zinc finger protein 711,-0.92,0.0379,down
+ED,508325,SRPK3,SRSF protein kinase 3,-2.09,0.0393,down
+ED,519513,BRCC3,BRCA1/BRCA2-containing complex subunit 3,-0.43,0.0414,down
+ED,519648,CDX4,caudal type homeobox 4,-1.67,0.0414,down
+ED,767908,RPL39,ribosomal protein L39,-0.75,0.0418,down
+ED,613674,VMA21,vacuolar ATPase assembly factor VMA21,-0.42,0.0436,down
+ED,539414,RAI2,retinoic acid induced 2,-2.2,0.0457,down
+ED,505725,PAGE4,PAGE family member 4,0.71,0.0458,up
+ED,504534,SLC10A3,solute carrier family 10 member 3,-0.39,0.046,down
+ED,515181,RAP2C,"RAP2C, member of RAS oncogene family",0.63,0.046,up
+ED,505773,LOC505773,protein kinase cAMP-dependent X-linked catalytic subunit,0.53,0.0475,up
+ED,617475,LOC617475,coagulation factor VIII-associated 1-like,-0.44,0.0498,down
+EEM,338325,XIST,X (inactive)-specific transcript,-7.44,1.17e-11,down
+EEM,614145,IDH3G,isocitrate dehydrogenase (NAD(+)) 3 non-catalytic subunit gamma,-1.03,2.28e-11,down
+EEM,540246,KLHL15,kelch like family member 15,-1.17,4.36e-8,down
+EEM,533823,ARHGEF6,Rac/Cdc42 guanine nucleotide exchange factor 6,2.17,1.19e-7,up
+EEM,615421,ZDHHC15,zinc finger DHHC-type palmitoyltransferase 15,3.55,3.34e-7,up
+EEM,508293,MOSPD2,motile sperm domain containing 2,-0.85,8.86e-7,down
+EEM,280961,ZFX,zinc finger protein X-linked,-0.98,1.55e-6,down
+EEM,515539,FAM50A,family with sequence similarity 50 member A,-0.77,1.14e-5,down
+EEM,286790,RPL10,ribosomal protein L10,-1.02,2.44e-5,down
+EEM,281809,HSD17B10,hydroxysteroid 17-beta dehydrogenase 10,-0.84,2.46e-5,down
+EEM,787130,EZHIP,EZH inhibitory protein,4.03,3.29e-5,up
+EEM,516056,BEX5,brain expressed X-linked 5,3.03,4.89e-5,up
+EEM,525619,DKC1,dyskerin pseudouridine synthase 1,-0.75,6.02e-5,down
+EEM,515109,TIMM8A,translocase of inner mitochondrial membrane 8A,-1,1.5e-4,down
+EEM,505324,UTP14A,UTP14A small subunit processome component,-0.58,1.89e-4,down
+EEM,510998,MPP1,MAGUK p55 scaffold protein 1,-0.87,2.33e-4,down
+EEM,507924,LAS1L,LAS1 like ribosome biogenesis factor,-0.54,2.57e-4,down
+EEM,508424,PIM2,"Pim-2 proto-oncogene, serine/threonine kinase",-0.57,2.77e-4,down
+EEM,616931,NUDT10,nudix (nucleoside diphosphate linked moiety X)-type motif 10,2.02,4e-4,up
+EEM,281813,FUNDC2,FUN14 domain containing 2,-0.78,4.16e-4,down
+EEM,515968,GEMIN8,gem nuclear organelle associated protein 8,-0.76,5.27e-4,down
+EEM,511776,RAB9A,"RAB9A, member RAS oncogene family",-0.75,5.27e-4,down
+EEM,282370,SMC1A,structural maintenance of chromosomes 1A,-0.67,5.43e-4,down
+EEM,613505,GPR143,G protein-coupled receptor 143,1.46,6.01e-4,up
+EEM,281855,IKBKG,inhibitor of nuclear factor kappa B kinase regulatory subunit gamma,-0.7,6.15e-4,down
+EEM,785611,NUDT11,nudix hydrolase 11,2.59,0.00102,up
+EEM,101902838,LOC101902838,zinc finger protein 75D,0.81,0.00139,up
+EEM,515568,TBC1D25,TBC1 domain family member 25,-0.6,0.00166,down
+EEM,518384,KCND1,potassium voltage-gated channel subfamily D member 1,1.51,0.00189,up
+EEM,327687,ATP6AP1,ATPase H+ transporting accessory protein 1,-0.82,0.00189,down
+EEM,504438,SSR4,signal sequence receptor subunit 4,-0.83,0.00206,down
+EEM,504687,STEEP1,STING1 ER exit protein 1,-0.73,0.00207,down
+EEM,508861,SAT1,spermidine/spermine N1-acetyltransferase 1,-0.82,0.00217,down
+EEM,399681,EMD,emerin,-0.64,0.00261,down
+EEM,782436,LAGE3,L antigen family member 3,-0.74,0.00267,down
+EEM,617475,LOC617475,coagulation factor VIII-associated 1-like,-0.83,0.00381,down
+EEM,504534,SLC10A3,solute carrier family 10 member 3,-0.78,0.00413,down
+EEM,512495,SLC38A5,solute carrier family 38 member 5,1.88,0.00523,up
+EEM,101905293,LOC101905293,fibrous sheath-interacting protein 2,2.86,0.00574,up
+EEM,282107,UBE2A,ubiquitin conjugating enzyme E2 A,-0.66,0.00605,down
+EEM,282588,CSTF2,cleavage stimulation factor subunit 2,-0.87,0.00631,down
+EEM,614404,HAUS7,HAUS augmin like complex subunit 7,-0.63,0.00697,down
+EEM,100336808,PHKA1,phosphorylase kinase regulatory subunit alpha 1,-0.53,0.00786,down
+EEM,100125231,MAGED4B,"melanoma antigen family D, 4B",2.48,0.00798,up
+EEM,535630,TMLHE,"trimethyllysine hydroxylase, epsilon",-0.99,0.00799,down
+EEM,539529,UBQLN2,ubiquilin 2,-0.8,0.00841,down
+EEM,616748,TRAPPC2,trafficking protein particle complex subunit 2,-0.83,0.00995,down
+EEM,507307,USP9X,ubiquitin specific peptidase 9 X-linked,-0.59,0.0105,down
+EEM,614241,RPS4X,ribosomal protein S4 X-linked,-0.48,0.0127,down
+EEM,615572,MID1IP1,MID1 interacting protein 1,-1.09,0.013,down
+EEM,504389,TCEANC,transcription elongation factor A N-terminal and central domain containing,-0.86,0.014,down
+EEM,534112,CNKSR2,connector enhancer of kinase suppressor of Ras 2,1.14,0.014,up
+EEM,112445060,LOC112445060,uncharacterized LOC112445060,1.85,0.0155,up
+EEM,515927,TXLNG,taxilin gamma,-0.78,0.0171,down
+EEM,613674,VMA21,vacuolar ATPase assembly factor VMA21,-0.9,0.0176,down
+EEM,539629,MECP2,methyl-CpG binding protein 2,-0.52,0.0187,down
+EEM,526925,OFD1,OFD1 centriole and centriolar satellite protein,-0.59,0.0204,down
+EEM,614007,SH3BGRL,SH3 domain binding glutamate rich protein like,2.52,0.0221,up
+EEM,536745,GPKOW,G-patch domain and KOW motifs,-0.52,0.0227,down
+EEM,513847,APOO,apolipoprotein O,-0.79,0.0266,down
+EEM,509882,DLG3,discs large MAGUK scaffold protein 3,-0.77,0.0274,down
+EEM,531674,ZNF41,zinc finger protein 41,1.43,0.0286,up
+EEM,616181,UPF3B,UPF3B regulator of nonsense mediated mRNA decay,-0.5,0.0287,down
+EEM,534848,POLA1,"DNA polymerase alpha 1, catalytic subunit",-0.63,0.0287,down
+EEM,281490,KDM5C,lysine demethylase 5C,-0.47,0.029,down
+EEM,512780,ARL13A,ADP ribosylation factor like GTPase 13A,0.8,0.0307,up
+EEM,519513,BRCC3,BRCA1/BRCA2-containing complex subunit 3,-0.64,0.0338,down
+EEM,526702,GCNA,germ cell nuclear acidic peptidase,1.56,0.0358,up
+EEM,100300550,COX7B,cytochrome c oxidase subunit VIIb,-0.69,0.036,down
+EEM,407109,PDHA1,pyruvate dehydrogenase E1 subunit alpha 1,-0.95,0.037,down
+EEM,282386,TMSB4X,thymosin beta 4 X-linked,-0.44,0.0398,down
+EEM,535714,AIFM1,apoptosis inducing factor mitochondria associated 1,-0.72,0.0401,down
+EEM,788191,NAP1L3,nucleosome assembly protein 1 like 3,2.33,0.0458,up
+EEM,515732,PHKA2,phosphorylase kinase regulatory subunit alpha 2,0.97,0.0477,up
+EEM,512350,EIF2S3,eukaryotic translation initiation factor 2 subunit gamma,-0.85,0.0482,down

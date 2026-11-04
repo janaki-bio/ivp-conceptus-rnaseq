@@ -1,0 +1,13 @@
+analysis,n_features,auc
+within_ED,50,1.0
+within_ED,100,1.0
+within_ED,500,1.0
+within_TE,50,1.0
+within_TE,100,1.0
+within_TE,500,1.0
+train_TE_test_ED,50,1.0
+train_TE_test_ED,100,1.0
+train_TE_test_ED,500,1.0
+train_ED_test_TE,50,1.0
+train_ED_test_TE,100,1.0
+train_ED_test_TE,500,1.0

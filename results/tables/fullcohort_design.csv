@@ -1,0 +1,12 @@
+region,type,sex,length_group,n
+ED,IVV,female,matched,4
+ED,IVV,female,other,3
+ED,IVV,male,other,2
+ED,IVP,male,matched,5
+ED,IVP,male,other,2
+TE,IVV,female,matched,4
+TE,IVV,female,other,2
+TE,IVV,male,other,2
+TE,IVP,female,other,1
+TE,IVP,male,matched,4
+TE,IVP,male,other,1

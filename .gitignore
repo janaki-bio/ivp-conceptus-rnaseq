@@ -1,0 +1,14 @@
+# input data (see data/README.md)
+data/*
+!data/README.md
+# R session / intermediate objects
+.Rhistory
+.RData
+.Rproj.user/
+results/objects/
+*.rds
+renv/library/
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini

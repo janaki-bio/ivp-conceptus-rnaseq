@@ -1,0 +1,6 @@
+IVV_embryo_left_out,n_markers,overlap_with_original,score_r_with_original,mean_score_IVP,mean_score_IVV,IVP_lower_on_average,n_IVP_below_lowest_IVV,adjusted_DEGs,adjusted_DEGs_up,adjusted_DEGs_down
+none,263,263,1,8,8.9,TRUE,2,659,360,299
+VE24,471,263,0.999,7.7,8.54,TRUE,2,607,323,284
+VE26,274,263,1,7.95,8.84,TRUE,2,646,353,293
+VE28,266,262,1,8,8.9,TRUE,2,658,361,297
+VE29,262,261,1,8.02,8.91,TRUE,2,663,361,302

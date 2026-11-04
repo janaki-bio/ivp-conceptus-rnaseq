@@ -1,0 +1,8 @@
+theme,tissue,representative,related_sets,le_size,union_size,median_jaccard,recurrent,pct_disc_markers,same_dir_adj,same_dir_male,same_dir_full
+ED glycosylation,ED,glycosylation,4,54,66,0.61,"SLC35C1, A4GALT, FUT2, ALG11, DOLPP1, MOGS, MGAT1, CRPPA",0.0,85.0,70.0,81.0
+ED lipid metabolism,ED,cellular lipid metabolic process,5,150,183,0.16,"SPTSSA, TRAM2, CERS5, PIGO, B4GALNT1, ST6GALNAC6, ELOVL6, DEGS2",0.0,85.0,67.0,67.0
+ED development / signalling,ED,anatomical structure morphogenesis,6,144,243,0.03,"WNT10B, WNT5A, WNT3, TBX6, WNT5B, BAMBI, WNT16, WNT3A",15.0,78.0,87.0,88.0
+EEM adhesion / ECM,EEM,cell adhesion,5,92,187,0.12,"ITGB7, ITGA2, TYRO3, ITGB3, LAMA1, THBS4, ITGB6, VWF",,,76.0,66.0
+EEM translation / respiration,EEM,cytoplasmic translation,5,28,240,0.0,"RPSA, RPLP0, LOC781576, RPL26",,,43.0,39.0
+Protein folding (ED and EEM) – ED,ED,protein refolding,2,9,14,0.29,"HSPA1A, HSPA6, HSPA8, HSPA2",0.0,100.0,56.0,56.0
+Protein folding (ED and EEM) – EEM,EEM,protein folding,4,64,64,0.27,"DNAJB1, HSPA6, HSPA8, DNAJB5, HSPA1A, DNAJB2, DNAJB13, DNAJA4",,,53.0,55.0

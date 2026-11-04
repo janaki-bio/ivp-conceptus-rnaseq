@@ -1,0 +1,2 @@
+genes_compared,DEG_ED,DEG_TE,DEG_both_regions,median_abs_shrunkLFC_ED,median_abs_shrunkLFC_TE,paired_wilcoxon_p,pearson_r_IVPeffect_ED_vs_TE,interaction_genes_FDR05
+14401,1218,721,295,0.07791635847653768,0.07881517742908499,2.617604574116854e-4,0.46091056982501366,417

@@ -1,0 +1,155 @@
+---
+title: "Effect of in vitro production on day-15 bovine conceptuses: embryonic disc and trophectoderm"
+subtitle: "Reproducible analysis"
+author: "Janaki Balasubramanian"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    embed-resources: true
+    fig-width: 8
+execute:
+  warning: false
+  message: false
+---
+
+```{r setup}
+# Render AFTER source("run_all.R"); this report only reads results/.
+suppressPackageStartupMessages({ library(tidyverse); library(knitr) })
+tb  <- function(f) read_csv(file.path("results/tables", f), show_col_types = FALSE)
+fig <- function(f) knitr::include_graphics(file.path("results/figures", f))
+de_sum <- tb("DE_summary.csv")
+mag    <- tb("region_effect_magnitude.csv")
+comp   <- tb("ED_composition_check.csv")
+n_of   <- function(a, col = "DEG") de_sum[[col]][de_sum$analysis == a]
+```
+
+## Design
+
+Same-length (elongated, short) day-15 conceptuses; ED and TE sections taken from **the same embryo**.
+
+```{r}
+read_csv("metadata/samples.csv", show_col_types = FALSE) %>%
+  filter(same_length) %>% select(sample, embryo, type, region, section, cryopreserved) %>% kable()
+```
+
+* Primary comparison: IVP vs IVV within each region, 4 vs 4 embryos (IVPF10_EC, the only fresh IVP library, excluded).
+* **Confounding:** every IVP embryo is male and every IVV embryo female, and each group comes from two dams,
+  so "IVP effect" here means *IVP + sex + dam*. These cannot be separated with these samples.
+
+## Quality control
+
+```{r}
+fig("qc_pca_same_length.png")
+```
+
+```{r}
+tb("qc_within_group_correlation.csv") %>% head(6) %>% kable(digits = 3,
+  caption = "Lowest mean correlation with libraries of the same region and type")
+```
+
+IVP9_T1A correlates noticeably less with the other TE libraries than any other library does;
+IVP9 is also the only embryo sectioned at position "A" rather than "C". TE results are therefore also
+reported without IVP9_T1A (sensitivity analysis).
+
+### Disc content of ED sections
+
+```{r}
+fig("qc_disc_score_ED.png")
+```
+
+Disc-enriched genes were defined from the IVV embryos alone (ED vs TE of the same embryo). Several IVP ED
+sections (IVP10_EC, IVP11_EC and the excluded IVPF10_EC) express these genes at clearly lower levels than any
+IVV ED section. Either the IVP discs are smaller or less developed (biologically plausible for IVP
+conceptuses), or the sections contain more trophectoderm. Either way, part of the "down in IVP ED"
+signal reflects **tissue composition** rather than lower expression per disc cell (see below).
+
+## Differential expression (IVP vs IVV)
+
+```{r}
+de_sum %>% kable(digits = 2)
+```
+
+```{r}
+fig("volcano_MA_ED_IVP_vs_IVV.png"); fig("volcano_MA_TE_IVP_vs_IVV.png")
+```
+
+### How much of the ED result is composition?
+
+```{r}
+comp %>% kable(digits = 2)
+```
+
+Across ED DEGs, the IVP-vs-IVV fold change correlates negatively with how disc-specific the gene is in
+IVV embryos (Spearman rho = `r round(comp$spearman_rho_all_DEG[1], 2)`). Adjusting the ED model for
+the disc-content score leaves `r n_of("ED_disc_adjusted")` DEGs (from `r n_of("ED")`). Because disc content
+itself differs between groups, the adjusted model is conservative: it may also remove real IVP effects.
+Both versions should be reported.
+
+## Is one region more affected than the other?
+
+```{r}
+mag %>% pivot_longer(everything()) %>% kable(digits = 3)
+```
+
+```{r}
+fig("IVPeffect_ED_vs_TE_scatter.png")
+```
+
+The correct test for "does IVP affect TE and ED differently" is the region × treatment interaction in a
+model that uses the ED/TE pairing within embryos (`03_joint_model.R`). It identified
+`r mag$interaction_genes_FDR05` genes at FDR < 0.05, and the IVP effects in the two regions are
+positively correlated (r = `r round(mag$pearson_r_IVPeffect_ED_vs_TE, 2)`). ED has more DEGs
+(`r mag$DEG_ED` vs `r mag$DEG_TE`), partly because of the composition shift described above.
+
+## Functional enrichment
+
+ORA used up- and down-regulated DEGs separately against the background of tested genes (BH FDR).
+GSEA used all tested genes ranked by the DESeq2 Wald statistic.
+
+```{r}
+#| results: asis
+for (f in c("GO_compareCluster_ED_TE.png",
+            "GSEA_dotplot_ED_IVP_vs_IVV.png", "GSEA_dotplot_TE_IVP_vs_IVV.png",
+            "GSEA_dotplot_ED_IVP_vs_IVV_discAdjusted.png")) {
+  if (file.exists(file.path("results/figures", f))) cat(sprintf("![](results/figures/%s)\n\n", f))
+}
+```
+
+## Classifier sanity check (optional)
+
+```{r}
+if (file.exists("results/tables/classifier_loeo_summary.csv")) {
+  tb("classifier_loeo_summary.csv") %>% kable(digits = 3)
+}
+```
+
+Leave-one-embryo-out CV with feature selection inside each fold, compared against all 70 embryo-level
+label permutations. With 8 embryos this is a coarse check only.
+
+### IVP vs IVV from one region, and across regions
+
+```{r}
+if (file.exists("results/tables/classifier_by_region_summary.csv")) {
+  tb("classifier_by_region_summary.csv") %>%
+    select(analysis, n_features, accuracy_svm, p_svm, accuracy_rf, p_rf,
+           rf_mean_prob_true_class, p_rf_prob) %>% kable(digits = 3)
+}
+```
+
+```{r}
+if (file.exists("results/figures/classifier_by_region.png")) fig("classifier_by_region.png")
+```
+
+Within-region accuracy shows whether one region alone identifies the procedure. Cross-region transfer
+(train on TE, predict ED and vice versa) shows whether the IVP signature is shared (high accuracy),
+region-specific (about 0.5) or inverted (below 0.5). With 8 embryos, the smallest attainable permutation
+p-value is 2/70 = 0.029.
+
+## Session
+
+```{r}
+if (file.exists("results/sessionInfo.txt")) cat(readLines("results/sessionInfo.txt"), sep = "\n")
+```

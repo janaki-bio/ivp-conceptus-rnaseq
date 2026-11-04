@@ -1,0 +1,4 @@
+analysis,genes_tested,DEG,up,down,median_abs_lfc_DEG,median_abs_shrunk_lfc_all
+TE_vs_ED_within_IVV,16267,3799,1092,2707,1.130282122814471,NA
+TE_vs_ED_within_IVP,16267,2237,736,1501,0.8481921454591023,NA
+interaction_IVPeffect_TE_minus_ED,15951,417,335,82,1.3755184433440366,NA

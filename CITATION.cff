@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below, together with Behrens et al. (2025)."
+title: "IVP vs IVV day-15 bovine conceptuses: embryonic disc and extra-embryonic membrane RNA-seq analysis"
+type: software
+authors:
+  - family-names: Balasubramanian
+    given-names: Janaki
+date-released: 2026-11-03
+license: MIT
+references:
+  - type: article
+    title: "In vitro processes alter the embryonic disc epigenome and transcriptome in the pre-implantation elongated bovine embryo"
+    authors:
+      - family-names: Behrens
+        given-names: Thomas
+      - family-names: Balasubramanian
+        given-names: Janaki
+      - family-names: Ivask
+        given-names: Marilin
+      - family-names: Nõmm
+        given-names: Monika
+      - family-names: Kavak
+        given-names: Ants
+      - family-names: Bojsen-Møller Secher
+        given-names: Jan
+      - family-names: Kadarmideen
+        given-names: Haja N.
+      - family-names: Rabaglino
+        given-names: Maria Belen
+    journal: "Biology of Reproduction"
+    volume: 115
+    issue: 2
+    start: 348
+    end: 360
+    year: 2025
+    doi: "10.1093/biolre/ioaf095"
